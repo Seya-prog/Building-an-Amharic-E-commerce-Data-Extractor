@@ -1,0 +1,30 @@
+# --- Environment / virtualenv ---
+.venv/
+.env
+
+# --- Python artifacts ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- IDE / OS files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- Telethon session files ---
+*.session
+
+# --- Project data & media ---
+data/
+photos/
+
+# --- Logs / temporary ---
+*.log
+*.tmp
