@@ -1,10 +1,10 @@
-# EthioMart Amharic E-commerce Data Extractor
+# EthioMart – Amharic E-commerce Telegram Data Pipeline
 
-Transform messy Amharic Telegram posts from Ethiopian e-commerce channels into structured data that can fuel a smart FinTech engine to assess vendors’ creditworthiness.
+Open-source pipeline that turns raw Amharic Telegram posts from popular Ethiopian e-commerce channels into clean, model-ready data for downstream Named-Entity-Recognition (NER) and credit-risk research.
 
 ---
 
-## Project Roadmap
+## 📌 Roadmap
 1. **Task 1 (current): Data Ingestion & Pre-processing** – Fetch messages from at least five Ethiopian e-commerce Telegram channels and store both raw and cleaned text in CSV.
 2. **Task 2: Manual CoNLL Labelling** – Label a subset of the cleaned messages for Product, Price & Location entities.
 3. **Task 3: Model Fine-tuning** – Fine-tune transformer-based NER models (e.g. XLM-Roberta) on the labelled data.
@@ -30,7 +30,7 @@ CSV files will appear in `data/raw/` and `data/preprocessed/`.
 
 ---
 
-## Legacy Fintech Review Analytics (Archived)
+## 🗄️ Archived — Legacy FinTech App-Review Analytics
 
 
 
