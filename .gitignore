@@ -22,7 +22,7 @@ Thumbs.db
 *.session
 
 # --- Project data & media ---
-data/
+
 photos/
 
 # --- Logs / temporary ---
