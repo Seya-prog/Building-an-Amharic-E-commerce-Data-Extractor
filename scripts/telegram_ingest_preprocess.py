@@ -81,6 +81,10 @@ def clean_amharic_text(text: str) -> str:
     3. Keeps Amharic punctuation marks (።፥፣፤፦፧፡፠) and word characters.
     4. Strips leading/trailing whitespace.
     """
+    # Handle None values
+    if text is None:
+        return ""
+        
     # Remove control characters / newlines
     text = re.sub(r"[\r\n]+", " ", text)
     # Remove everything except word chars, spaces and common Amharic punctuation

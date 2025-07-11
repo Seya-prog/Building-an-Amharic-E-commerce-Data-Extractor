@@ -1,9 +1,25 @@
-pandas==2.2.3
-python-dateutil==2.9.0.post0
-pytz==2025.2
-six==1.17.0
-tzdata==2025.2
-python-dotenv==1.0.0
-tqdm==4.66.1
-scikit-learn==1.6.1
-telethon==1.34.0
+pandas
+python-dateutil
+pytz
+six
+tzdata
+python-dotenv
+tqdm
+scikit-learn
+telethon
+
+# --- NER & ML stack ---
+numpy>=1.23
+matplotlib>=3.5
+torch>=2.2
+transformers>=4.40
+datasets>=3.5
+evaluate>=0.4
+
+# Interpretability
+shap
+lime
+
+# Data & model versioning
+# Includes Google Drive support for DVC remotes
+dvc[gdrive]
