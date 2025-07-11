@@ -1,0 +1,5 @@
+[core]
+    remote = modelstore
+['remote "modelstore"']
+    url = gdrive://1A_-ekC9nhRqVsngKNqLxzi8525bihTHO
+    gdrive_acknowledge_abuse = true
