@@ -3,5 +3,3 @@
 ['remote "modelstore"']
     url = gdrive://1A_-ekC9nhRqVsngKNqLxzi8525bihTHO
     gdrive_acknowledge_abuse = true
-    gdrive_client_id = 236435907755-dhsl5vprl1pbv8aejoinauedrdt87q65.apps.googleusercontent.com
-    gdrive_client_secret = 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

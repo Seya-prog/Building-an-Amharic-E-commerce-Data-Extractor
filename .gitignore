@@ -29,16 +29,8 @@ Thumbs.db
 
 # --- Project data & media ---
 # Keep data directory structure but ignore contents
-data/raw/*
-data/preprocessed/*
-data/ner/*
-!data/raw/.gitkeep
-!data/preprocessed/.gitkeep
-!data/ner/.gitkeep
-
-# Keep photos directory but ignore contents
-photos/*
-!photos/.gitkeep
+data/
+photos/
 
 # --- DVC files ---
 # DVC handles its own gitignore rules
@@ -52,10 +44,6 @@ photos/*
 *.log
 *.tmp
 vendor_metrics.csv
-
-# --- Font files ---
-# Uncomment if fonts should be ignored
-# fonts/
 
 # --- Cache files ---
 .cache/
