@@ -1,6 +1,8 @@
 # --- Environment / virtualenv ---
 .venv/
 .env
+env/
+venv/
 
 # --- Python artifacts ---
 __pycache__/
@@ -11,20 +13,37 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+.pytest_cache/
 
 # --- IDE / OS files ---
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # --- Telethon session files ---
 *.session
+*.session-journal
 
 # --- Project data & media ---
+# Keep data directory structure but ignore contents
 data/
 photos/
+
+# --- DVC files ---
+# DVC handles its own gitignore rules
+# /Models/best-ner-xlmr is already ignored via Models/.gitignore
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
 
 # --- Logs / temporary ---
 *.log
 *.tmp
+vendor_metrics.csv
+
+# --- Cache files ---
+.cache/

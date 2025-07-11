@@ -1,0 +1,6 @@
+outs:
+- md5: c1d6b16fe1407266c62a54a91b4d6235.dir
+  size: 1132019388
+  nfiles: 6
+  hash: md5
+  path: best-ner-xlmr
